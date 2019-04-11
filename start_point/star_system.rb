@@ -50,6 +50,8 @@ class StarSystem
    result = @planets.sort_by { |planet| planet.diameter}
    result.reverse!
    result.map {|result| result.name }
+   #@planets.sort_by { |planet| planet.diameter}.reverse!.map {|result| result.name }
+   # ^This also works
 
  end
 
